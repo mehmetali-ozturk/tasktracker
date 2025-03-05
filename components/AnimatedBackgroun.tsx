@@ -136,7 +136,7 @@ const AnimatedBackground = () => {
   return (
     <canvas 
       ref={canvasRef} 
-      className="fixed top-0 left-0 w-full h-full -z-10 opacity-20"
+      className="fixed top-0 left-0 w-full h-full -z-10 blur-lg opacity-50"
       style={{ background: 'linear-gradient(to bottom right, #000000, #4c1d95)' }}
     />
   );
